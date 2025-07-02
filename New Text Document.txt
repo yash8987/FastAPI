@@ -1,0 +1,14 @@
+#DATABASE 
+DATABASE_URL = "sqlite:///./ecommerce.db"
+
+#SMTP
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_ADDRESS=healthcarewellness657@gmail.com
+EMAIL_PASSWORD=iekkoysakapcbbkh
+
+#JWT
+JWT_SECRET_KEY = "ca1aa4a36312947869bd6665b665723be09693a65dbb0f70c6cb0d199785a58b" 
+JWT_ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
